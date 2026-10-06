@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate Football 27</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="game-ui">
+    <div class="brand">ULTIMATE <span>FOOTBALL</span></div>
+
+    <div class="scoreboard">
+      <div class="team">
+        <span>BLUE FC</span>
+        <strong id="scoreBlue">0</strong>
+      </div>
+
+      <div class="time">
+        <span id="timer">02:00</span>
+        <small>MATCH</small>
+      </div>
+
+      <div class="team red">
+        <strong id="scoreRed">0</strong>
+        <span>RED FC</span>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div class="controls">
+    <div class="control-box">
+      <b>MOVE</b>
+      <span>W A S D</span>
+    </div>
+
+    <div class="control-box">
+      <b>SPRINT</b>
+      <span>SHIFT</span>
+    </div>
+
+    <div class="control-box">
+      <b>PASS</b>
+      <span>SPACE</span>
+    </div>
+
+    <div class="control-box">
+      <b>SHOOT</b>
+      <span>ENTER</span>
+    </div>
+  </div>
+
+  <div id="message" class="message">
+    KICK OFF!
+  </div>
+
+  <button id="startBtn">START MATCH</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
